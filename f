@@ -32,7 +32,7 @@ getgenv().PikaESPSettings = {
 }
 
 local function PikaESP(v)
-    local BoxOutline = Drawing.new("Square")
+    local BoxOutline = Drawing.new("Circle")
     BoxOutline.Visible = false
     BoxOutline.Color = Color3.new(0,0,0)
     BoxOutline.Thickness = 3
